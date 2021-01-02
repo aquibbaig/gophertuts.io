@@ -1,7 +1,7 @@
 ---
-title: "Sub Page"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "This is the meta description for this page"
+title: "gRPC"
+metaTitle: "gRPC Remote Procedure Calls"
+metaDescription: "(gRPC Remote Procedure Calls"
 ---
 
 The following is a code block with JavaScript language syntax highlighting.
