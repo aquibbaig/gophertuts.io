@@ -32,7 +32,3 @@ maximizes CPU utilisation by running subprocesses(threads) simultaneously. When 
 in golang is way too cheap than in other languages such as Java.
 
 ![go routines](../content/images/parallel-execution.jpg)
-
-### Gophertuts
-The golang community is a big place and it is constantly growing. What we would like to achieve by a series like this is to help beginners find some interesting topics to refer to. In the world of development, it is pretty easy to search for resources once you know what you're looking for but it is hard to find out if something exists in the first place. What I mean by this is that it may be hard for people to know about certain terms and what they do before they can search for a detailed explanation and functionality. The aim is to bridge that gap and provide readers with a fun learning experience.
-
