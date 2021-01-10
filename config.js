@@ -36,7 +36,8 @@ const config = {
       '/gRPC',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/codeblock',
+      '/gRPC',        // add trailing slash if enabled above
     ],
     links: [{ text: 'Golang', link: 'https://golang.org/' }],
     frontline: false,
