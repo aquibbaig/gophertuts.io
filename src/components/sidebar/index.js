@@ -122,7 +122,7 @@ const SidebarLayout = ({ location }) => (
               if (link.link !== '' && link.text !== '') {
                 return (
                   <ListItem key={key} to={link.link}>
-                    {link.text}
+                    <span>&#9829;</span> {' '}{link.text}
                     <ExternalLink size={14} />
                   </ListItem>
                 );

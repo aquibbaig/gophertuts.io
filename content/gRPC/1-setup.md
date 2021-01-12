@@ -10,6 +10,18 @@ The best way to learn the underlying concepts of gRPC would be by building an ap
 - We would be building a simple `train-status` application which is mostly like a railway inquiry where you input the train number and it outputs it's schedule. We should be less concerned about
 what the input and output are, the aim is to inspect the communication between the client and the server.
 
+# Project directory structure
+```bash
+├── enquiry/
+│   ├── enquiry.pb.go
+│   ├── enquiry.proto
+│   ├── train-enquiry.go
+├── client.go
+├── server.go
+├── go.mod (optional)
+└── go.sum (optional)
+```
+
 # Setting up the server
 
 - Create a new file `server.go` and fill it up with a simple boilerplate code to start a server.
@@ -29,7 +41,7 @@ func main() {
   }
 }
 ```
-The above code uses the `net` package to create a server that listens on the PORT we provided in the argument and logs an error (if any).
+The above code uses the `net` package to create a server that listens on the PORT that we provided in the argument and logs an error (if any).
 
 # Using the gRPC package
 The next step is to import the grpc package for golang and setting up the grpc server on top of the tcp connection we created above.
