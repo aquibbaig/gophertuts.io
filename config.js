@@ -39,7 +39,7 @@ const config = {
       '/codeblock',
       '/gRPC',        // add trailing slash if enabled above
     ],
-    links: [{ text: 'aquibbaig', link: 'https://aquibbaig.surge.sh/' }],
+    links: [{ text: 'aquibbaig', link: 'https://aquibbaig.in/' }],
     frontline: false,
     ignoreIndex: true,
     title:
